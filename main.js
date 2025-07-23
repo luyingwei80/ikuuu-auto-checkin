@@ -2,7 +2,7 @@
 
 import { appendFileSync } from "fs";
 
-const host = process.env.HOST || "ikuuu.ch";
+const host = process.env.HOST || "ikuuu.one";
 
 const logInUrl = `https://${host}/auth/login`;
 const checkInUrl = `https://${host}/user/checkin`;
